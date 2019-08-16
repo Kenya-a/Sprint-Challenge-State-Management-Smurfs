@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import "./App.css";
 import FormikSmurfForm from "./SmurfForm";
+import SmurfList from './SmurfList';
+
 
 
 class App extends Component {
@@ -14,6 +16,7 @@ class App extends Component {
         <div>Start inside of your `src/index.js` file!</div>
         <div>Have fun!</div>
         <FormikSmurfForm/>
+        <SmurfList/>
       </div>
     );
   }
