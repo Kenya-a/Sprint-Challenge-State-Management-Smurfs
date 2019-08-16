@@ -6,7 +6,7 @@ const Smurfs = props => {
 
     return (
         <div>
-            <h3>Name</h3>
+            <h3>{props.e.name}</h3>
         </div>
     )
 }

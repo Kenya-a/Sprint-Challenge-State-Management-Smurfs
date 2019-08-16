@@ -86,10 +86,9 @@ const FormikSmurfForm = withFormik({
         height: Yup.string()
             .required('A height is required.'),
 
-
-
     })
 
 })(SmurfForm)
+
 
 export default FormikSmurfForm;
